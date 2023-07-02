@@ -1,0 +1,54 @@
+body{
+    background-color: antiquewhite;
+}
+h1{
+    text-align: center;
+}
+img{
+    height: 300px;
+    width: 30%;
+}
+#headdiv{
+    display: flex;
+    justify-content: space-between;
+}
+#par_div{
+    display: flex;
+    justify-content: space-between;
+}
+table{
+    border-width: 2px;
+    border-color: black;
+    border-style: dashed;
+    border-collapse: collapse;
+    width: 35%;
+}
+th{
+    border-width: 2px;
+    border-color: black;
+    border-style: dashed;
+    color: brown;
+    background-color: aqua;
+}
+td{
+    border-width: 2px;
+    border-color: black;
+    border-style: dashed;
+    text-align: center;
+    color: rgb(61, 10, 108);
+    background-color: rgb(152, 189, 31);
+}
+#inpdiv{
+    display: flex;
+    justify-content: center;
+}
+input{
+    margin-right: 60px;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(157, 196, 121);
+}
+button{
+    padding: 10px;
+    background-color: rgb(94, 94, 200);
+}
