@@ -129,6 +129,10 @@ article div h3{
     color: #686666;
     background-color: #78c6cc;
 }
+#trh:active{
+    background-color: red;
+    color: #ffcf22;
+}
 footer{
     background-color: #445F61;
     display: flex;
