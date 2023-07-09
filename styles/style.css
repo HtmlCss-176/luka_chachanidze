@@ -1,0 +1,259 @@
+body{
+    margin: 0px;
+    background-color: rgb(78, 77, 80);
+}
+nav{
+    background-color: rgb(46, 45, 48);
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin: 20px;
+}
+nav div{
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+nav div:hover{
+    background-color: rgb(33, 32, 33);
+}
+
+.leftFixed img{
+    height: 50px;
+}
+.leftFixed{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    left: 0px;
+    top: 130px;
+}
+.leftFixed div{
+    width: 150px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.leftFixed p{
+    display: none;
+}
+.facebook:hover p{
+    display: contents;
+    color: aliceblue;
+}
+.facebook:hover{
+    background-color: rgb(23, 121, 244);
+}
+.twitter:hover{
+    background-color: rgb(29, 161, 241);
+}
+.twitter:hover p{
+    display: contents;
+    color: aliceblue;
+}
+.instagram:hover{
+    background-color: rgb(200, 89, 158);
+}
+.instagram:hover p{
+    display: contents;
+    color: aliceblue;
+}
+.linkedin:hover{
+    background-color: rgb(12, 100, 197);
+}
+.linkedin:hover p{
+    display: contents;
+    color: aliceblue; 
+}
+.git:hover{
+    background-color: rgb(18, 21, 25);
+}
+.git:hover p{
+    display: contents;
+    color: aliceblue;
+}
+.youtube:hover{
+    background-color: rgb(212, 35, 34);
+}
+.youtube:hover p{
+    display: contents;
+    color: aliceblue;
+}
+article{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+article .text{
+    width: 500px;
+}
+article .text p{
+    border-color: aliceblue;
+    border-width: 2px;
+    border-style: solid;
+    padding: 10px;
+    background-color: rgb(46, 45, 48);
+    color: rgb(255, 255, 255);
+}
+table{
+    border-color: rgb(46, 45, 48);
+    border-width: 3px;
+    border-style: solid;
+    border-collapse: collapse;
+    width: 500px;
+}
+th{
+    border-color: rgb(46, 45, 48);
+    border-width: 3px;
+    border-style: solid;
+    padding: 5px;
+    color: rgb(255, 255, 255);
+}
+td{
+    border-color: rgb(46, 45, 48);
+    border-width: 3px;
+    border-style: solid;
+    padding: 5px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+td:hover{
+    background-color: rgb(33, 32, 33);
+}
+th:hover{
+    background-color: rgb(33, 32, 33);
+}
+.cat3 img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+}
+.cat3{
+    display: flex;
+}
+.textinp{
+    display: flex;
+    padding-left: 60px;
+}
+.cat{
+    background-color: rgb(110, 110, 110);
+    width: 350px;
+    height: 250px;
+    padding: 10px;
+    border-width: 3px;
+    border-color: rgb(46, 45, 48);
+    border-style: solid;
+    border-radius: 5px;
+}
+.textinp input {
+    width: 270px;
+    height: 90px;
+    padding: 10px; 
+    border-radius: 5px;
+    box-sizing: border-box;
+    position: static;
+  
+}
+.textinp input::placeholder {
+    position: absolute;
+    top: 4px;
+    left: 6px;
+}
+.button2{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.button2 button{
+    height: 30px;
+    font-size: 10px;
+    width: 90px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(62, 171, 60);
+}
+.button2 button:hover{
+    background-color: rgb(47, 130, 46);
+}
+#but2{
+    background-color: rgb(198, 49, 49);
+}
+#but2:hover{
+    background-color: rgb(141, 40, 40);
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    background-color: rgb(46, 45, 48);
+    margin-top: 300px;
+    height: 220px;
+    padding-left: 70px;
+    padding-right: 20px;
+}
+.foot1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.foot1 div{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+    justify-content: space-evenly;
+    height: 150px;
+}
+.foot1 a{
+    text-decoration: none;
+    color: rgb(200, 200, 200);
+    padding: 2px;
+}
+.foot2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 300px;
+    width: 400px;
+    align-items: center;
+}
+.foot2 input{
+    width: 90%;
+    height: 35px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+}
+.foot2 button{
+    margin-top: 30px;
+    height: 40px;
+    width: 200px;
+    border-color: rgb(200, 200, 200);
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 50px;
+    padding: 5px;
+    background-color: rgb(46, 45, 48);
+    color: rgb(200, 200, 200);
+}
+.foot2 button:hover{
+    background-color: rgb(33, 32, 33);
+}
+.foot3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.foot3 pre{
+    padding-right:  110px;
+    color: rgb(200, 200, 200);
+}
+h4{
+    color: rgb(200, 200, 200);
+}
