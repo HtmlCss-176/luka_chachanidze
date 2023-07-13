@@ -1,0 +1,86 @@
+body{
+    margin: 0px;
+}
+header img{
+    width: 100%;
+}
+header nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 125px;
+}
+header nav div{
+    border-bottom-width: 4px;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    font-size: 30px;
+}
+main h1{
+    text-align: center;
+    font-size: 60px;
+}
+.images{
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.images div{
+    border-left-color: black;
+    border-left-width: 14px;
+    border-left-style: dotted;
+}
+main img{
+    height: 200px;
+}
+article{
+    display: flex;
+    justify-content: center;
+    padding-top: 90px;
+}
+article div{
+    width: 90%;
+    height: 50%;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 30px;
+    font-size: 230%;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+article div p{
+    box-sizing: border-box;
+}
+footer{
+    padding-top: 70px;
+}
+footer .email{
+    display: flex;
+    border-top-width: 10px;
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-bottom-width: 5px;
+    border-color: black;
+    border-style: solid;
+}
+footer .password{
+    display: flex;
+    border-top-width: 5px;
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-bottom-width: 10px;
+    border-color: black;
+    border-style: solid;
+}
+footer p{
+    font-size: 20px;
+    box-sizing: border-box;
+}
+input{
+    border: none;
+    box-sizing: border-box;
+}
